@@ -1,0 +1,122 @@
+[
+  {
+    "role": "adminRole",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "ProductType",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "ProductType",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "ProductType",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "ProductType",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "ProductType",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "ProductType",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "ProductType",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "ProductType",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "ProductType",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "ProductType",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]
