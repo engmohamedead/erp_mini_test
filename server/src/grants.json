@@ -118,5 +118,65 @@
     "resource": "ProductType",
     "action": "read:any",
     "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "Test",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "Test",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "Test",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "Test",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "Test",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "Test",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "Test",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "Test",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "adminRole",
+    "resource": "Test",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "User",
+    "resource": "Test",
+    "action": "read:any",
+    "attributes": "*"
   }
 ]
